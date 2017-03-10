@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_font"
+        android:orderInCategory="0"
+        android:title="@string/txt_font"
+/>
+
+    <item
+        android:id="@+id/menu_about_the_programm"
+        android:orderInCategory="1"
+        android:title="@string/txt_about_the_program"
+        />
+
+
+    <SeekBar
+        android:id="@+id/menu_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="10"
+        android:max="26"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_font"
+        android:id="@+id/textView_menu_font"/>
+
+
+
+</menu>

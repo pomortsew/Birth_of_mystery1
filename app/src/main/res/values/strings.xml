@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Тайна числа рождения</string>
+    <string name="txt_input_name">Имя</string>
+    <string name="txt_input_surname">Фамилия</string>
+    <string name="txt_input_patronymic">Отчество</string>
+    <string name="txt_input_year_birth">Год рождения</string>
+    <string name="txt_input_month_birth">Месяц рождения</string>
+    <string name="txt_input_birthday">День рождения</string>
+    <string name="txt_calculation">Расчет</string>
+    <string name="txt_other_calculation">Другие расчеты</string>
+    <string name="txt_fill_the_form">Заполните форму</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_toast_other_calculation">Данная функция в разработке</string>
+    <string name="txt_toast_error_input">Установите дату рождения !!!</string>
+    <string name="txt_back">Назад</string>
+    <string name="txt_new_calculation">Новый расчет</string>
+    <string name="txt_font">Шрифт</string>
+    <string name="txt_about_the_program">О программе</string>
+    <string name="txt_exit">Выход</string>
+    <string name="txt_font_more">Больше</string>
+    <string name="txt_font_less">Меньше</string>
+    <string name="txt_info_about">Тайна числа рождения V-1.29</string>
+    <string name="txt_help_developer">Помощь автору </string>
+    <string name="txt_instal_data">Установить дату рождения</string>
+</resources>

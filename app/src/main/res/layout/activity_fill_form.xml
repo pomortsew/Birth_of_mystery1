@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fill_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pomortsew.birthofamystery.FillForm">
+
+    <EditText
+        android:id="@+id/editText_fill_form_patronymic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView_fill_form_patronymic"
+        android:layout_alignLeft="@+id/editText_fill_form_surname"
+        android:layout_alignStart="@+id/editText_fill_form_surname" />
+
+    <TextView
+        android:id="@+id/textView_fill_form_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_input_name"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView_fillForm_fill_the_form"
+        android:layout_toRightOf="@+id/button_fill_form_other_calculation"
+        android:layout_toEndOf="@+id/button_fill_form_other_calculation"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/textView_fillForm_fill_the_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_fill_the_form"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView_fill_form_patronymic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_input_patronymic"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText_fill_form_surname"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText_fill_form_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView_fill_form_surname"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView_fill_form_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_input_surname"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText_fill_form_name"
+        android:layout_alignRight="@+id/textView_fill_form_patronymic"
+        android:layout_alignEnd="@+id/textView_fill_form_patronymic" />
+
+    <EditText
+        android:id="@+id/editText_fill_form_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView_fill_form_name"
+        android:layout_alignLeft="@+id/editText_fill_form_patronymic"
+        android:layout_alignStart="@+id/editText_fill_form_patronymic" />
+
+    <Button
+        android:text="@string/txt_calculation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_fill_form_calculation"
+        tools:ignore="HardcodedText,RelativeOverlap"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView_fill_form_name"
+        android:layout_toRightOf="@+id/textView_fill_form_name" />
+
+    <Button
+        android:text="@string/txt_other_calculation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button_fill_form_other_calculation" />
+
+    <Button
+        android:id="@+id/button_fill_form_instal_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_instal_data"
+        android:layout_below="@+id/textView_fill_form_date_of_birth"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView_fill_form_date_of_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_fill_form_patronymic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>
